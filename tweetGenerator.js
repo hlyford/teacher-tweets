@@ -1,5 +1,3 @@
-// var graph = require('./tweets.js');
-
 var tweetGenerator = function(graph) {
 
 	var finalSentence = '';	
