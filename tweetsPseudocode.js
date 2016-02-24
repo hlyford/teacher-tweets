@@ -16,13 +16,16 @@
 
 // HAVE: wordsObject containing each word (key) and object containing sets of next possible words and frequencies (value)
 
-// { "The" : {
-// 	count: 2,
-// 	nextWords: {
-// 		"cat" : 2,
-// 		"cow" : 5
-// 	}
-// 	}
+// { 
+//	  "The" : 
+//    {
+// 	  	count: 2,
+// 	    nextWords: 
+//      {
+// 		    "cat" : 2,
+// 		    "cow" : 5
+// 	    }
+// 	  }
 // }
 
 // construct a function that uses the graph to return a tweet
