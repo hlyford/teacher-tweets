@@ -1,12 +1,11 @@
-var graph = require('./tweets.js');
-// console.log(graph);
+// var graph = require('./tweets.js');
 
 var tweetGenerator = function(graph) {
 
 	var finalSentence = '';	
 	var addWord = function(currentWord, sentenceSoFar) {				
-		// base case 
-		if (currentWord === 'undefined') {			
+		// base case: hit "undefined", end of a tweet
+		if (currentWord === '!undefined!') {			
 			// slice off "!START! " and return the remaining string
 			return sentenceSoFar.slice(8, sentenceSoFar.length - 1);
 		} else {
