@@ -7,7 +7,7 @@
 
 // iterate through each row of the contents
 	// iterate through each word in the 'text' column of the contents variable (as marked by space character)
-	// e.g. "Learn how to connect general ed Ss w/ #sped Ss during #HourOfCode! Share your coding resource w/ #codewithTES!  https://t.co/NGxHqxlBX6"
+	// e.g. [deleted]
 		// create an empty as the fix word
 		// if the word is not in the wordsObject, then i want to make a new index at that word and set value = 1
 		// else if the word is in the wordsObject, increment the value at the word index  
