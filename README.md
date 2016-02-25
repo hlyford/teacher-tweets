@@ -1,4 +1,6 @@
 Using this repo:
+
+- *** CSV has been removed so will need to be added back to the directory ***
  
 - Run 'npm install'. 
 
